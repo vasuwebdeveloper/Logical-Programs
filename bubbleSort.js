@@ -22,7 +22,7 @@ for(var i =0; i<n-1; i++){
 
 }
 
-alert("sorted elements>>>>>"+array);
+document.write("After BubbleSort the array elements are "+array);
 </script>
 
 </body>
