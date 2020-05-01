@@ -23,6 +23,7 @@ j--;
 array[j+1] = temp;
 }
 
+document.write("After Insertion sorting "+ array)
 </script>
 
 </body>
