@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Power using recursion</h2>
+
+<script>
+function getPower(base,power){
+ if(power == 0)
+ return 1;
+ 
+ // If the power is even
+ if(power % 2 == 0){
+ return getPower(base*base,power/2);
+ }
+ else{
+ // If the power is odd
+  return base * getPower(base*base,(power-1)/2);
+ }
+
+}
+var powerValue = getPower(2,4);
+document.write("Power Value is: "+ powerValue);
+
+</script>
+
+</body>
+</html>
