@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Factorial of a number using recursion</h2>
+
+<script>
+function getFactorial(number){
+    if(number>0){
+        debugger;
+        return getFactorial(number-1) * number;
+    }
+    else{
+        return 1;
+    }
+}
+
+var factorial = getFactorial(5);
+document.write("The Factorial of 5 is: "+ factorial);
+</script>
+
+</body>
+</html>
